@@ -2,7 +2,6 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  // Sadece UI kütüphanelerini transpile et
   transpilePackages: [
     '@coinbase/onchainkit',
     '@rainbow-me/rainbowkit',
@@ -14,9 +13,7 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  // eslint bloğunu tamamen kaldırdık çünkü Next.js 16'da desteklenmiyor
 };
 
 export default nextConfig;
