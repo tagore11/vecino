@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@base-org/account": "^2.5.0",
-    "@coinbase/onchainkit": "^1.1.2",
+    "@coinbase/onchainkit": "^1.0.0",,
     "@coinbase/wallet-sdk": "^4.3.7",
     "@metamask/sdk": "^0.34.0",
-    "@rainbow-me/rainbowkit": "^2.2.9",
+    "@rainbow-me/rainbowkit": "^2.1.5",
     "@react-spring/web": "^10.0.3",
     "@safe-global/safe-apps-provider": "^0.18.6",
     "@safe-global/safe-apps-sdk": "^9.1.0",
@@ -24,8 +24,8 @@
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-tinder-card": "^1.6.4",
-    "viem": "^2.39.3",
-    "wagmi": "^3.0.1"
+    "viem": "^2.21.0",
+    "wagmi": "^2.19.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
